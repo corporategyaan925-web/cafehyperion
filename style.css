@@ -147,3 +147,11 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+
+/* Logo Styling */
+.logo img {
+  height: 45px;          /* Controls how tall your logo is */
+  width: auto;           /* Keeps your logo from stretching */
+  display: block;        /* Removes awkward gaps below the image */
+  object-fit: contain;   /* Keeps logo proportion crisp */
+}
