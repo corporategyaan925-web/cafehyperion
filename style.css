@@ -1,0 +1,149 @@
+/* General Layout & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #faf9f6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header & Navigation */
+header {
+  background: #3e2723;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #d7ccc8;
+  color: #3e2723;
+  padding: 10px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  color: #3e2723;
+}
+
+/* Menu Grid */
+.menu-section {
+  background: #efebe9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  margin-bottom: 30px;
+  color: #3e2723;
+}
+
+.menu-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 250px;
+}
+
+.menu-card h3 {
+  color: #5d4037;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #efebe9;
+  padding-bottom: 5px;
+}
+
+.menu-card p {
+  margin: 10px 0;
+}
+
+/* Visit / Contact */
+.info p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #3e2723;
+  color: #d7ccc8;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
